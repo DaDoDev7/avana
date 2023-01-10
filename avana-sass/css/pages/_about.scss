@@ -49,6 +49,7 @@
     font-size: 16px;
     transition: all .3s ease-in-out;
     z-index: 2;
+    opacity: 0;
     strong{
         text-transform: uppercase;
     }
@@ -56,6 +57,7 @@
 }
 .portraitpic:hover .portrait_text{
     bottom: -14%;
+    opacity: 1;
 }
 .portraitpic::before{
     content: '';
